@@ -1,16 +1,32 @@
-*{box-sizing: border-box;}
+*{
+  box-sizing: border-box;
+}
 
-#wrapper{ width: 90%;margin:auto;border-style: solid;border-color: black;}
+#wrapper{ 
+  width: 90%;
+  margin:auto;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: black;
+}
 
-header {padding: 25px;color: white;text-align: center;background-color: #151E32;}
+header {
+  padding: 25px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #151E32;
+}
 
 .nav {
   padding: 4px;
   overflow: hidden;
   background-color:black;
   border-style: solid;
+  border-radius: 10px;
+  margin-top:3px;
   border-color: darkslategrey;
-  border-width: 0px 0px 1px 0px;
+  border-width: 1px 0px 1px 0px;
   
 }
 
@@ -58,13 +74,19 @@ header {padding: 25px;color: white;text-align: center;background-color: #151E32;
 
 body {margin:0;font-family: Arial, Helvetica, sans-serif;background-color: darkslategrey;}
 
-main{ display:grid; grid-template-columns: 65% 35%;background-color: black;padding: 3px;}
+main{ 
+  display:grid; 
+  grid-template-columns: 65% 35%;
+  background-color: black;
+  
+}
 
 section{
   background-color: #CCC5B9;
-  
+  border-radius: 10px 0px 0px 0px;
   color: black;
-  margin:1px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   padding: 10px;
   
 }
@@ -73,7 +95,7 @@ aside{
   
   
   color: black;
-  margin:1px;
+ 
   text-align: center;
   padding: 10px;
   background-color: black;
@@ -143,7 +165,7 @@ footer{
   color: white;
   font-size: small;
   text-align: center;
-  
+  border-radius: 0px 0px 10px 10px;
   background-color: #151E32;;
 }
 
