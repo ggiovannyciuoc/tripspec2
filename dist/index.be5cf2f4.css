@@ -2,14 +2,43 @@
 
 #wrapper{ width: 90%;margin:auto;border-style: solid;border-color: black;}
 
-header {padding: 25px;color: white;text-align: center;background-color: #252422;}
+header {padding: 25px;color: white;text-align: center;background-color: #151E32;}
 
 .nav {
   padding: 4px;
   overflow: hidden;
   background-color:black;
+  border-style: solid;
+  border-color: darkslategrey;
+  border-width: 0px 0px 1px 0px;
+  
 }
 
+/***********pec2************/
+.img-logo{
+
+  width: 150px;
+  height: 150px;
+  border-style: none;
+
+}
+
+.clip{
+
+  clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+  width:100%;
+  height: 100%;
+  align-items: center;
+  
+}
+
+.img-footer{
+
+  width: 50px;
+  height: 50px;
+}
+
+/***********pec2************/
 .nav a {
   float: left;
   margin: 3px; 
@@ -33,19 +62,21 @@ main{ display:grid; grid-template-columns: 65% 35%;background-color: black;paddi
 
 section{
   background-color: #CCC5B9;
-  border-radius: 10px;
+  
   color: black;
   margin:1px;
   padding: 10px;
+  
 }
 
 aside{
-  background-color: #CCC5B9;
-  border-radius: 10px;
+  
+  
   color: black;
   margin:1px;
   text-align: center;
-  padding: 29px 6px 6px 6px;
+  padding: 10px;
+  background-color: black;
 }
 
 iframe{ border-radius: 10px;}
@@ -112,7 +143,8 @@ footer{
   color: white;
   font-size: small;
   text-align: center;
-  background-color:black;
+  
+  background-color: #151E32;;
 }
 
 .nav a:hover {
@@ -169,6 +201,14 @@ footer{
     text-align: center;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .clip{
+
+      clip-path: polygon(51% 0, 100% 46%, 100% 100%, 0 100%, 0% 50%);
+      
+      }
+    }
 
 @media screen and (max-width: 600px) {
  .bnt-detalles{
